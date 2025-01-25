@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Endings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/chessground.base.css" />
+    <link rel="stylesheet" type="text/css" href="assets/chessground.brown.css" />
+    <link rel="stylesheet" type="text/css" href="assets/chessground.cburnett.css" />
+    <style>    
+      .chessground {
+        width: 250px;
+        height: 250px;
+      }
+
+      cg-board {
+        background-color: #bfcfdd;
+      }
+      section {
+          margin: 20px 0 30px;
+      }
+    </style>
+
+    <script type="module">
+      import { Chessground } from './dist/chessground.js';
+      Chessground(document.getElementById('id_3k4_8_8_8_8_8_3P4_3K4_w_-_-_0_1'), { fen: '3k4/8/8/8/8/8/3P4/3K4 w - - 0 1', }); 
+      Chessground(document.getElementById('id_2k5_8_8_8_8_8_2P5_2K5_w_-_-_0_1'), { fen: '2k5/8/8/8/8/8/2P5/2K5 w - - 0 1', });
+      Chessground(document.getElementById('id_1k6_8_8_8_8_8_1P6_1K6_w_-_-_0_1'), { fen: '1k6/8/8/8/8/8/1P6/1K6 w - - 0 1', });
+      Chessground(document.getElementById('id_4k3_8_8_3BBK2_8_8_8_8_w_-_-_0_1'), { fen: '4k3/8/8/3BBK2/8/8/8/8 w - - 0 1', });
+      Chessground(document.getElementById('id_8_8_6k1_8_6BB_6K1_8_8_w_-_-_0_1'), { fen: '8/8/6k1/8/6BB/6K1/8/8 w - - 0 1', }); 
+      Chessground(document.getElementById('id_3k4_8_8_8_8_8_8_B2K1B2_w_-_-_0_1'), { fen: '3k4/8/8/8/8/8/8/B2K1B2 w - - 0 1', });
+      Chessground(document.getElementById('id_4k3_R7_8_3KP3_8_6r1_8_8_b_-_-_0_1'), { fen: '4k3/R7/8/3KP3/8/6r1/8/8 b - - 0 1', });
+      Chessground(document.getElementById('id_3K4_3P1k2_8_8_8_8_7r_4R3_b_-_-_0_1'), { fen: '3K4/3P1k2/8/8/8/8/7r/4R3 b - - 0 1', });
+      Chessground(document.getElementById('id_4k3_7R_8_3KPr2_8_8_8_8_b_-_-_0_1'), { fen: '4k3/7R/8/3KPr2/8/8/8/8 b - - 0 1', });
+      Chessground(document.getElementById('r7_3RK1k1_4P3_8_8_8_8_8_w_-_-_0_1'), { fen: 'r7/3RK1k1/4P3/8/8/8/8/8 w - - 0 1', });
+      Chessground(document.getElementById('id_1r6_R3K1k1_4P3_8_8_8_8_8_w_-_-_0_1'), { fen: '1r6/R3K1k1/4P3/8/8/8/8/8 w - - 0 1', });
+      Chessground(document.getElementById('id_2r5_8_5k2_8_2P5_2K5_8_4R3_w_-_-_0_1'), { fen: '2r5/8/5k2/8/2P5/2K5/8/4R3 w - - 0 1', });
+      Chessground(document.getElementById('id_3r4_8_k7_8_3P4_3K4_8_1R6_w_-_-_0_1'), { fen: '3r4/8/k7/8/3P4/3K4/8/1R6 w - - 0 1', });
+      Chessground(document.getElementById('id_1k6_7R_8_KP6_8_8_8_2r5_w_-_-_0_1'), { fen: '1k6/7R/8/KP6/8/8/8/2r5 w - - 0 1', });
+      Chessground(document.getElementById('id_1r6_8_8_2R5_1P1k4_1K6_8_8_b_-_-_0_1'), { fen: '1r6/8/8/2R5/1P1k4/1K6/8/8 b - - 0 1', });
+      Chessground(document.getElementById('id_2r5_8_8_3R4_2P1k3_2K5_8_8_b_-_-_0_1'), { fen: '2r5/8/8/3R4/2P1k3/2K5/8/8 b - - 0 1', });
+      Chessground(document.getElementById('id_3r4_8_8_8_7R_3P1k2_3K4_8_b_-_-_0_1'), { fen: '3r4/8/8/8/7R/3P1k2/3K4/8 b - - 0 1', });
+      Chessground(document.getElementById('id_2r5_8_7R_4k3_2P5_2K5_8_8_b_-_-_0_1'), { fen: '2r5/8/7R/4k3/2P5/2K5/8/8 b - - 0 1', });
+      Chessground(document.getElementById('R7_P4k2_8_8_8_8_6K1_r7_b_-_-_0_1'), { fen: 'R7/P4k2/8/8/8/8/6K1/r7 b - - 0 1', });
+      Chessground(document.getElementById('R7_5k2_P7_8_8_8_6K1_r7_b_-_-_0_1'), { fen: 'R7/5k2/P7/8/8/8/6K1/r7 b - - 0 1', });
+      Chessground(document.getElementById('K7_P4k2_8_8_8_8_4R3_1r6_w_-_-_0_1'), { fen: 'K7/P4k2/8/8/8/8/4R3/1r6 w - - 0 1', });
+      Chessground(document.getElementById('id_8_1K1k4_2R5_P7_8_8_8_7r_b_-_-_0_1'), { fen: '8/1K1k4/2R5/P7/8/8/8/7r b - - 0 1', });
+      Chessground(document.getElementById('id_8_8_8_4k3_8_8_8_1B2K1N1_w_-_-_0_1'), { fen: '8/8/8/4k3/8/8/8/1B2K1N1 w - - 0 1', });
+      Chessground(document.getElementById('id_8_2k5_1p6_1P1K4_8_8_8_8_w_-_-_0_1'), { fen: '8/2k5/1p6/1P1K4/8/8/8/8 w - - 0 1', });
+      Chessground(document.getElementById('id_8_8_kP6_2K5_1P6_8_8_8_w_-_-_0_1'), { fen: '8/8/kP6/2K5/1P6/8/8/8 w - - 0 1', });
+      Chessground(document.getElementById('id_8_5k2_8_6P1_6P1_4K3_8_8_w_-_-_0_1'), { fen: '8/5k2/8/6P1/6P1/4K3/8/8 w - - 0 1', });
+      Chessground(document.getElementById('id_8_8_8_6p1_5kP1_8_5K2_8_w_-_-_0_1'), { fen: '8/8/8/6p1/5kP1/8/5K2/8 w - - 0 1', });
+      Chessground(document.getElementById('id_8_5p2_5P2_8_8_K7_3k4_8_w_-_-_0_1'), { fen: '8/5p2/5P2/8/8/K7/3k4/8 w - - 0 1', });
+      Chessground(document.getElementById('id_8_6p1_6P1_8_K7_8_8_6k1_w_-_-_0_1'), { fen: '8/6p1/6P1/8/K7/8/8/6k1 w - - 0 1', });
+      Chessground(document.getElementById('id_1R6_8_8_8_4pk2_8_r7_4K3_w_-_-_0_1'), { fen: '1R6/8/8/8/4pk2/8/r7/4K3 w - - 0 1', });
+      Chessground(document.getElementById('id_8_8_8_r7_5pk1_3R4_8_3K4_w_-_-_0_1'), { fen: '8/8/8/r7/5pk1/3R4/8/3K4 w - - 0 1', });
+      Chessground(document.getElementById('id_8_8_8_2R5_3pk3_8_7r_3K4_w_-_-_0_1'), { fen: '8/8/8/2R5/3pk3/8/7r/3K4 w - - 0 1', });
+      Chessground(document.getElementById('id_2KB4_1P6_2k5_8_8_8_7b_8_w_-_-_0_1'), { fen: '2KB4/1P6/2k5/8/8/8/7b/8 w - - 0 1', });
+      Chessground(document.getElementById('id_4n3_4P3_4K3_8_6N1_1k6_8_8_w_-_-_0_1'), { fen: '4n3/4P3/4K3/8/6N1/1k6/8/8 w - - 0 1', });
+      Chessground(document.getElementById('id_8_8_8_2n5_5KP1_k7_6B1_8_w_-_-_0_1'), { fen: '8/8/8/2n5/5KP1/k7/6B1/8 w - - 0 1', });
+
+    </script>
+  </head>
+  <body>
+  <div class="container">
+    <h1>Finales Ajedrez</h1>
+
+      <section>
+          <h2>Finales de Peones</h2>
+
+          <div class="row">
+              <div class="col-md-4  mb-4">
+                  <h3>K+P vs K #1</h3>
+                  <p>White to Play and Win</p>
+                  <div class="chessground" id="id_3k4_8_8_8_8_8_3P4_3K4_w_-_-_0_1"></div>
+                  Jugar contra <a href="https://lichess.org/?fen=3k4%2F8%2F8%2F8%2F8%2F8%2F3P4%2F3K4+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=3k4%2F8%2F8%2F8%2F8%2F8%2F3P4%2F3K4+w+-+-+0+1#ai">el ordenador</a>.
+                  <a href="https://lichess.org/analysis/standard/3k4/8/8/8/8/8/3P4/3K4_w_-_-_0_1"></a>
+              </div>
+
+
+              <div class="col-md-4  mb-4">
+                  <h3>K+P vs K #2</h3>
+                  <p>White to Play and Win</p>
+                  <div class="chessground" id="id_2k5_8_8_8_8_8_2P5_2K5_w_-_-_0_1"></div>
+                  Jugar contra <a href="https://lichess.org/?fen=2k5%2F8%2F8%2F8%2F8%2F8%2F2P5%2F2K5+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=2k5%2F8%2F8%2F8%2F8%2F8%2F2P5%2F2K5+w+-+-+0+1#ai">el ordenador</a>
+              </div>
+
+              <div class="col-md-4  mb-4">
+                  <h3>K+P vs K #3</h3> <p>White to Play and Win</p> <div class="chessground" id="id_1k6_8_8_8_8_8_1P6_1K6_w_-_-_0_1"></div>
+                  Jugar contra <a href="https://lichess.org/?fen=1k6%2F8%2F8%2F8%2F8%2F8%2F1P6%2F1K6+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=1k6%2F8%2F8%2F8%2F8%2F8%2F1P6%2F1K6+w+-+-+0+1#ai">el ordenador</a>
+              </div>
+
+              <div class="col-md-4 mb-4"> <h3>K + P 2 #1</h3> <p>White to Play and Win</p> <div class="chessground" id="id_8_2k5_1p6_1P1K4_8_8_8_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F2k5%2F1p6%2F1P1K4%2F8%2F8%2F8%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F2k5%2F1p6%2F1P1K4%2F8%2F8%2F8%2F8+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/8/2k5/1p6/1P1K4/8/8/8/8_w_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4 mb-4"> <h3>K + P 2 #2</h3> <p>White to Play and Win</p> <div class="chessground" id="id_8_8_kP6_2K5_1P6_8_8_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F8%2FkP6%2F2K5%2F1P6%2F8%2F8%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F8%2FkP6%2F2K5%2F1P6%2F8%2F8%2F8+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/8/8/kP6/2K5/1P6/8/8/8_w_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4 mb-4"> <h3>K+P 2 #3</h3> <p>White to Play and Win</p> <div class="chessground" id="id_8_5k2_8_6P1_6P1_4K3_8_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F5k2%2F8%2F6P1%2F6P1%2F4K3%2F8%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F5k2%2F8%2F6P1%2F6P1%2F4K3%2F8%2F8+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/8/5k2/8/6P1/6P1/4K3/8/8_w_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4 mb-4"> <h3>K+P 3 #1</h3> <p>White to Play and Win</p> <div class="chessground" id="id_8_8_8_6p1_5kP1_8_5K2_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F8%2F8%2F6p1%2F5kP1%2F8%2F5K2%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F8%2F8%2F6p1%2F5kP1%2F8%2F5K2%2F8+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/8/8/8/6p1/5kP1/8/5K2/8_w_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4 mb-4"> <h3>K+P 3 #2</h3> <p>White to Play and Win</p> <div class="chessground" id="id_8_5p2_5P2_8_8_K7_3k4_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F5p2%2F5P2%2F8%2F8%2FK7%2F3k4%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F5p2%2F5P2%2F8%2F8%2FK7%2F3k4%2F8+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/8/5p2/5P2/8/8/K7/3k4/8_w_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4 mb-4"> <h3>K+P 3 #3</h3> <p>White to Play and Win</p> <div class="chessground" id="id_8_6p1_6P1_8_K7_8_8_6k1_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F6p1%2F6P1%2F8%2FK7%2F8%2F8%2F6k1+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F6p1%2F6P1%2F8%2FK7%2F8%2F8%2F6k1+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/8/6p1/6P1/8/K7/8/8/6k1_w_-_-_0_1">análisis</a> </div>
+
+          </div>
+      </section>
+      <section>
+          <h2>Two Bishop Checkmate</h2>
+
+          <div class="row">
+              <div class="col-md-4  mb-4">
+                  <h3>Two Bishop Checkmate #1</h3> <p>White to Play and Win</p> <div class="chessground" id="id_4k3_8_8_3BBK2_8_8_8_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=4k3%2F8%2F8%2F3BBK2%2F8%2F8%2F8%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=4k3%2F8%2F8%2F3BBK2%2F8%2F8%2F8%2F8+w+-+-+0+1#ai">el ordenador</a>
+              </div>
+
+
+              <div class="col-md-4  mb-4"><h3>Two Bishop Checkmate #2</h3> <p>White to Play and Win</p> <div class="chessground" id="id_8_8_6k1_8_6BB_6K1_8_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F8%2F6k1%2F8%2F6BB%2F6K1%2F8%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F8%2F6k1%2F8%2F6BB%2F6K1%2F8%2F8+w+-+-+0+1#ai">el ordenador</a> </div>
+
+              <div class="col-md-4  mb-4"><h3>Two Bishop Checkmate #3</h3> <p>White to Play and Win</p> <div class="chessground" id="id_3k4_8_8_8_8_8_8_B2K1B2_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=3k4%2F8%2F8%2F8%2F8%2F8%2F8%2FB2K1B2+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=3k4%2F8%2F8%2F8%2F8%2F8%2F8%2FB2K1B2+w+-+-+0+1#ai">el ordenador</a> </div>
+          </div>
+      </section>
+      <section>
+          <h2>Bishop and Knight Checkmate</h2>
+          <div class="row">
+              <div class="col-md-4 mb-4"> <h3>Alfil y Caballo</h3> <p>White to Play and Win</p> <div class="chessground" id="id_8_8_8_4k3_8_8_8_1B2K1N1_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F8%2F8%2F4k3%2F8%2F8%2F8%2F1B2K1N1+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F8%2F8%2F4k3%2F8%2F8%2F8%2F1B2K1N1+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/8/8/8/4k3/8/8/8/1B2K1N1_w_-_-_0_1">análisis</a> </div>
+          </div>
+      </section>
+      <section>
+          <h2>Rooks Endings</h2>
+          <div class="row">
+
+          <div class="col-md-4  mb-4"><h3>Philidor</h3>
+              <p>Black to Play and Draw</p> <div class="chessground" id="id_4k3_R7_8_3KP3_8_6r1_8_8_b_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=4k3%2FR7%2F8%2F3KP3%2F8%2F6r1%2F8%2F8+b+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=4k3%2FR7%2F8%2F3KP3%2F8%2F6r1%2F8%2F8+b+-+-+0+1#ai">el ordenador</a>
+          </div>
+
+              <div class="col-md-4 mb-4"> <h3>Philidor #1</h3> <p>White to Play and Draw</p> <div class="chessground" id="id_1R6_8_8_8_4pk2_8_r7_4K3_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=1R6%2F8%2F8%2F8%2F4pk2%2F8%2Fr7%2F4K3+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=1R6%2F8%2F8%2F8%2F4pk2%2F8%2Fr7%2F4K3+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/1R6/8/8/8/4pk2/8/r7/4K3_w_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4 mb-4"> <h3>Philidor #2</h3> <p>White to Play and Draw</p> <div class="chessground" id="id_8_8_8_r7_5pk1_3R4_8_3K4_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F8%2F8%2Fr7%2F5pk1%2F3R4%2F8%2F3K4+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F8%2F8%2Fr7%2F5pk1%2F3R4%2F8%2F3K4+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/8/8/8/r7/5pk1/3R4/8/3K4_w_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4 mb-4"> <h3>Philidor #3</h3> <p>White to Play and Draw</p> <div class="chessground" id="id_8_8_8_2R5_3pk3_8_7r_3K4_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F8%2F8%2F2R5%2F3pk3%2F8%2F7r%2F3K4+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F8%2F8%2F2R5%2F3pk3%2F8%2F7r%2F3K4+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/8/8/8/2R5/3pk3/8/7r/3K4_w_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4  mb-4"> <h3>Lucena</h3> <p>White to Play and Win</p> <div class="chessground" id="id_3K4_3P1k2_8_8_8_8_7r_4R3_b_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=3K4%2F3P1k2%2F8%2F8%2F8%2F8%2F7r%2F4R3+b+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=3K4%2F3P1k2%2F8%2F8%2F8%2F8%2F7r%2F4R3+b+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/3K4/3P1k2/8/8/8/8/7r/4R3_b_-_-_0_1">análisis</a> </div>
+               <div class="col-md-4  mb-4"> <h3>Defensa alternativa a Philidor</h3> <p>Black to Play and Draw</p> <div class="chessground" id="id_4k3_7R_8_3KPr2_8_8_8_8_b_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=4k3%2F7R%2F8%2F3KPr2%2F8%2F8%2F8%2F8+b+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=4k3%2F7R%2F8%2F3KPr2%2F8%2F8%2F8%2F8+b+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/4k3/7R/8/3KPr2/8/8/8/8_b_-_-_0_1">análisis</a> </div>
+              <div class="col-md-4  mb-4"> <h3>Peón en Sexta + Rey Cortado</h3> <p>White to Play and Win</p> <div class="chessground" id="r7_3RK1k1_4P3_8_8_8_8_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=r7%2F3RK1k1%2F4P3%2F8%2F8%2F8%2F8%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=r7%2F3RK1k1%2F4P3%2F8%2F8%2F8%2F8%2F8+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/r7/3RK1k1/4P3/8/8/8/8/8_w_-_-_0_1">análisis</a> </div>
+              <div class="col-md-4"> <h3>Peón en Sexta + Torre sin Movilidad</h3> <p>White to Play and Win</p> <div class="chessground" id="id_1r6_R3K1k1_4P3_8_8_8_8_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=1r6%2FR3K1k1%2F4P3%2F8%2F8%2F8%2F8%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=1r6%2FR3K1k1%2F4P3%2F8%2F8%2F8%2F8%2F8+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/1r6/R3K1k1/4P3/8/8/8/8/8_w_-_-_0_1">análisis</a> </div>
+              <div class="col-md-4 mb-4"> <h3>Corte Vertical- Peón en Cuarta + Dos Columnas</h3> <p>White to Play and Win</p> <div class="chessground" id="id_2r5_8_5k2_8_2P5_2K5_8_4R3_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=2r5%2F8%2F5k2%2F8%2F2P5%2F2K5%2F8%2F4R3+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=2r5%2F8%2F5k2%2F8%2F2P5%2F2K5%2F8%2F4R3+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/2r5/8/5k2/8/2P5/2K5/8/4R3_w_-_-_0_1">análisis</a> </div>
+              <div class="col-md-4 mb-4"> <h3>Corte Vertical- Rey Lado Corto</h3> <p>White to Play and Win</p> <div class="chessground" id="id_3r4_8_k7_8_3P4_3K4_8_1R6_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=3r4%2F8%2Fk7%2F8%2F3P4%2F3K4%2F8%2F1R6+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=3r4%2F8%2Fk7%2F8%2F3P4%2F3K4%2F8%2F1R6+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/3r4/8/k7/8/3P4/3K4/8/1R6_w_-_-_0_1">análisis</a> </div>
+              <div class="col-md-4 mb-4"> <h3>Peón de caballo - No hay necesidad de Philidor</h3> <p>White to Play and Win</p> <div class="chessground" id="id_1k6_7R_8_KP6_8_8_8_2r5_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=1k6%2F7R%2F8%2FKP6%2F8%2F8%2F8%2F2r5+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=1k6%2F7R%2F8%2FKP6%2F8%2F8%2F8%2F2r5+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/1k6/7R/8/KP6/8/8/8/2r5_w_-_-_0_1">análisis</a> </div>
+              <div class="col-md-4 mb-4"> <h3>Corte Horizontal perfecto</h3> <p>White to Play and Win</p> <div class="chessground" id="id_1r6_8_8_2R5_1P1k4_1K6_8_8_b_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=1r6%2F8%2F8%2F2R5%2F1P1k4%2F1K6%2F8%2F8+b+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=1r6%2F8%2F8%2F2R5%2F1P1k4%2F1K6%2F8%2F8+b+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/1r6/8/8/2R5/1P1k4/1K6/8/8_b_-_-_0_1">análisis</a> </div>
+               <div class="col-md-4 mb-4"> <h3>Corte Horizontal perfecto- Peón Alfil</h3> <p>White to Play and Win</p> <div class="chessground" id="id_2r5_8_8_3R4_2P1k3_2K5_8_8_b_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=2r5%2F8%2F8%2F3R4%2F2P1k3%2F2K5%2F8%2F8+b+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=2r5%2F8%2F8%2F3R4%2F2P1k3%2F2K5%2F8%2F8+b+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/2r5/8/8/3R4/2P1k3/2K5/8/8_b_-_-_0_1">análisis</a> </div>
+               <div class="col-md-4 mb-4"> <h3>Corte Horizontal perfecto- Peón Tercera</h3> <p>White to Play and Win</p> <div class="chessground" id="id_3r4_8_8_8_7R_3P1k2_3K4_8_b_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=3r4%2F8%2F8%2F8%2F7R%2F3P1k2%2F3K4%2F8+b+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=3r4%2F8%2F8%2F8%2F7R%2F3P1k2%2F3K4%2F8+b+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/3r4/8/8/8/7R/3P1k2/3K4/8_b_-_-_0_1">análisis</a> </div>
+              <div class="col-md-4 mb-4"> <h3>Corte Horizontal Imperfecto</h3> <p>White to Play and Win</p> <div class="chessground" id="id_2r5_8_7R_4k3_2P5_2K5_8_8_b_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=2r5%2F8%2F7R%2F4k3%2F2P5%2F2K5%2F8%2F8+b+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=2r5%2F8%2F7R%2F4k3%2F2P5%2F2K5%2F8%2F8+b+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/2r5/8/7R/4k3/2P5/2K5/8/8_b_-_-_0_1">análisis</a> </div>
+              <div class="col-md-4 mb-4"> <h3>Defensa y Victoria Básica</h3> <p>White to Play and Win</p> <div class="chessground" id="R7_P4k2_8_8_8_8_6K1_r7_b_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=R7%2FP4k2%2F8%2F8%2F8%2F8%2F6K1%2Fr7+b+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=R7%2FP4k2%2F8%2F8%2F8%2F8%2F6K1%2Fr7+b+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/R7/P4k2/8/8/8/8/6K1/r7_b_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4 mb-4"> <h3>Vancura</h3> <p>White to Play and Win</p> <div class="chessground" id="R7_5k2_P7_8_8_8_6K1_r7_b_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=R7%2F5k2%2FP7%2F8%2F8%2F8%2F6K1%2Fr7+b+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=R7%2F5k2%2FP7%2F8%2F8%2F8%2F6K1%2Fr7+b+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/R7/5k2/P7/8/8/8/6K1/r7_b_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4 mb-4"> <h3>Rey Cortado</h3> <p>White to Play and Win</p> <div class="chessground" id="K7_P4k2_8_8_8_8_4R3_1r6_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=K7%2FP4k2%2F8%2F8%2F8%2F8%2F4R3%2F1r6+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=K7%2FP4k2%2F8%2F8%2F8%2F8%2F4R3%2F1r6+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/K7/P4k2/8/8/8/8/4R3/1r6_w_-_-_0_1">análisis</a> </div>
+               <div class="col-md-4 mb-4"> <h3>Torre Blanca y Rey Apoyando</h3> <p>White to Play and Win</p> <div class="chessground" id="id_8_1K1k4_2R5_P7_8_8_8_7r_b_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F1K1k4%2F2R5%2FP7%2F8%2F8%2F8%2F7r+b+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F1K1k4%2F2R5%2FP7%2F8%2F8%2F8%2F7r+b+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/8/1K1k4/2R5/P7/8/8/8/7r_b_-_-_0_1">análisis</a> </div>
+
+          </div>
+      </section>
+
+      <section>
+          <h2>Minor Promoting Pawns</h2>
+
+          <div class="row">
+              <div class="col-md-4 mb-4"> <h3>Minor Promoting Pawns #1</h3> <p>White to Play and Win</p> <div class="chessground" id="id_2KB4_1P6_2k5_8_8_8_7b_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=2KB4%2F1P6%2F2k5%2F8%2F8%2F8%2F7b%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=2KB4%2F1P6%2F2k5%2F8%2F8%2F8%2F7b%2F8+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/2KB4/1P6/2k5/8/8/8/7b/8_w_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4 mb-4"> <h3>Minor Promoting Pawns #2</h3> <p>White to Play and Win</p> <div class="chessground" id="id_4n3_4P3_4K3_8_6N1_1k6_8_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=4n3%2F4P3%2F4K3%2F8%2F6N1%2F1k6%2F8%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=4n3%2F4P3%2F4K3%2F8%2F6N1%2F1k6%2F8%2F8+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/4n3/4P3/4K3/8/6N1/1k6/8/8_w_-_-_0_1">análisis</a> </div>
+
+              <div class="col-md-4 mb-4"> <h3>Minor Promoting Pawns #3</h3> <p>White to Play and Win</p> <div class="chessground" id="id_8_8_8_2n5_5KP1_k7_6B1_8_w_-_-_0_1"></div> Jugar contra <a href="https://lichess.org/?fen=8%2F8%2F8%2F2n5%2F5KP1%2Fk7%2F6B1%2F8+w+-+-+0+1#friend">un amigo</a> <a href="https://lichess.org/?fen=8%2F8%2F8%2F2n5%2F5KP1%2Fk7%2F6B1%2F8+w+-+-+0+1#ai">el ordenador</a> <a href="https://lichess.org/analysis/standard/8/8/8/2n5/5KP1/k7/6B1/8_w_-_-_0_1">análisis</a> </div>
+
+
+          </div>
+      </section>
+
+     
+     
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
